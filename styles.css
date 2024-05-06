@@ -1,0 +1,72 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting default font and box-sizing */
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Styling the header and navigation menu */
+header {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li a {
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar ul li a.active {
+    background-color: #555;
+}
+
+/* Styling the sections */
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styling individual sections */
+#home {
+    background-color: orange; /* Orange color for the home page */
+}
+
+#about {
+    background-color: green; /* Green color for the about page */
+}
+
+#services {
+    background-color: brown; /* Brown color for the services page */
+}
+
+#portfolio {
+    background-color: #ffb6c1; /* Light pink color for the portfolio page */
+}
+
+#contact {
+    background-color: #fffacd; /* Cream color for the contact page */
+}
